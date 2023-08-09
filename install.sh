@@ -11,8 +11,6 @@ wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/nodejs.s
 sudo mv nodejs.sh /etc/profile.d/
 rm node-v18.17.0-linux-x64.tar.xz
 sudo apt-get install npm
-mkdir ddos
-cd ddos
 wget https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt
 wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/node_modules.zip
 unzip node_modules.zip
@@ -28,5 +26,3 @@ pip3 install threading
 pip3 install imcplib
 pip3 install scapy
 chmod +x *
-cd
-rm install.sh

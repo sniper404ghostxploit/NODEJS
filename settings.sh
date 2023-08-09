@@ -9,8 +9,9 @@ wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/node-v18
 sudo tar -xf node-v18.17.0-linux-x64.tar.xz -C /opt
 wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/nodejs.sh
 sudo mv nodejs.sh /etc/profile.d/
-rm nodejs.sh
 rm node-v18.17.0-linux-x64.tar.xz
 mkdir ddos
 cd ddos
 wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/node_modules.zip
+unzip node_modules.zip
+rm node_modules.zip

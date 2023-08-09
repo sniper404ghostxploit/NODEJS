@@ -15,3 +15,4 @@ cd ddos
 wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/node_modules.zip
 unzip node_modules.zip
 rm node_modules.zip
+rm install.sh

